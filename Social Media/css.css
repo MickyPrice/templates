@@ -1,0 +1,133 @@
+img{
+  background-image: url(img/loading.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*Navigation Bar*/
+.navigation {
+font-family:sans-serif;
+position:fixed;
+width:100%;
+right:0;
+left:0;
+top:0;
+min-height:45px;
+background-color:#9a9a9a
+}
+
+.navigation a {
+color:#000;
+text-decoration:none;
+min-height:20px;
+float:left;
+display:block;
+color:#fff!important;
+text-align:center;
+padding:14px 16px;
+text-decoration:none
+}
+
+.navigation a:hover {
+background-color:#6a6a6a;
+color:#fff!important;
+text-decoration:none
+}
+
+.navigation .nav-right {
+float:right
+}
+
+.navigation .nav-center {
+text-align:center
+}
+/*Navigation Bar End*/
+
+
+/*Online Friends*/
+.online-users {
+top:0px;
+position:fixed;
+height:100%;
+min-width:300px;
+margin-top:48px;
+font-weight:700;
+overflow-y:scroll
+}
+
+.online-users .user-box {
+background-color:#9a9a9a;
+min-height:50px;
+min-width:100%;
+font-size:22px;
+margin-top:10px;
+font-weight:700
+}
+
+.online-users .user-box img {
+max-width:40px;
+margin-top:7px;
+margin-left:6px;
+margin-right:10px
+}
+
+.online-users .user-box:last-child {
+margin-bottom:100px
+}
+/*Online Friends End*/
+
+
+
+/*Social Media Content*/
+  .content{
+    margin-top:48px;
+    margin-left:300px;
+    width:900px;
+    margin-bottom: 0px;
+  }
+  .content .jumbotron{
+    min-height:800px;
+    margin-bottom: 0px;
+  }
+  .content .media-object{
+    width:50px;
+  }
+  .content p{
+    margin-left:30px;
+  }
+  .content h4{
+    font-weight: bold;
+  }
+  .media{
+    border-bottom-color:#9a9a9a;
+    border-bottom-style: solid;
+  }
+  .media .media-reply{
+    font-size:13px;
+    font-style: italic;
+    color:blue;
+    margin-left:30px;
+  }
+  .media .media-body img{
+    margin-left:50px;
+    width:100px;
+  }
+/*Social Media Content end*/
+
+
+
+
+/*Trending*/
+.trending {
+top:0px;
+position:fixed;
+height:100%;
+min-width:300px;
+margin-top:48px;
+right:0px;
+}
+.trending a{
+  margin-left:50px;
+  font-size:20px;
+  color:darkblue
+}
+/*Trending End*/

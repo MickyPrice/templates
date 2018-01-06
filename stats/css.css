@@ -1,0 +1,9 @@
+.row.content {height: 1000px}
+.navigation {background-color: white;height: 100%;-webkit-box-shadow: 10px 0px 23px 0px rgba(0,0,0,0.46);-moz-box-shadow: 10px 0px 23px 0px rgba(0,0,0,0.46);box-shadow: 10px 0px 23px 0px rgba(0,0,0,0.46);}
+@media screen and (max-width: 767px) {.row.content {height: auto;}}
+.navigation h2{margin-top:50px;margin-bottom: 50px;font-weight: bold;margin-left:30px;}
+::selection {background-color:#737373}
+li a{color:black;font-size:20px;}
+a{color:black!important}
+a:hover{color:black!important}
+.well:hover{-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);}

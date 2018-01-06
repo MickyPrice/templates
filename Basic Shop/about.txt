@@ -1,0 +1,8 @@
+<!--This is the about folder for this template, It's used to send info to the main site. Feel free to ignore/delete this.-->
+
+
+<b>Creator:</b> Michael Price
+<br />
+<b>Resources:</b> Bootstrap, JQuery
+<br />
+Great for an online shop.

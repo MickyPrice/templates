@@ -1,0 +1,161 @@
+<!-- Club Template -->
+<!-- By Michael Leon Price -->
+<!-- michael-leon-price.com -->
+<!DOCTYPE html>
+<html>
+  <!-- Doc Info -->
+  <head>
+    <meta charset="utf-8">
+    <title>Club - By Michael Price</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap, FontAwesome, JQuery links -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+    <div class="maincontent container">
+      <div class="alert alert-info alert-dismissable fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Welcome!</strong> To look into joining our club, click <a href="#join">Here</a>
+      </div>
+      <!-- Header -->
+      <header>
+        <h1>Our Club</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+      </header>
+
+
+
+
+
+      <!-- Slideshow -->
+      <div id="mainslideshow" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#mainslideshow" data-slide-to="0" class="active"></li>
+          <li data-target="#mainslideshow" data-slide-to="1"></li>
+          <li data-target="#mainslideshow" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <a href="articles"><img src="images/mainslide1.jpg" alt="Slideshow Image" style="width:100%;"></a>
+          </div>
+
+          <div class="item">
+            <a href="articles"><img src="images/mainslide2.jpg" alt="Slideshow Image" style="width:100%;"></a>
+          </div>
+
+          <div class="item">
+            <a href="articles"><img src="images/mainslide3.jpg" alt="Slideshow Image" style="width:100%;"></a>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#mainslideshow" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#mainslideshow" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Slideshow End -->
+
+      <!-- About Tab -->
+      <div class="jumbotron tab" id="about">
+        <h1><b>About Us</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <!-- Members -->
+      <div class="jumbotron tab" id="members">
+        <h1><b>Some Members</b></h1>
+
+        <div class="row">
+        <div class="card col-lg-4">
+          <img src="images/profile1.jpg" alt="John" style="width:100px;height:100px;">
+          <div class="container">
+            <h3>Frank Lopez</h3>
+            <p class="title">26/05/2015</p>
+            <p>Harvard University</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img src="images/profile2.jpg" alt="John" style="width:100px;height:100px;">
+          <div class="container">
+            <h3>John Doe</h3>
+            <p class="title">05/11/2016</p>
+            <p>Oxford University</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+        </div>
+
+        <div class="card col-lg-4">
+          <img src="images/profile3.jpg" alt="John" style="width:100px;height:100px;">
+          <div class="container">
+            <h3>Jane Smith</h3>
+            <p class="title">15/08/2013</p>
+            <p>Cambridge University</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Join The Club -->
+      <div class="jumbotron tab" id="join">
+        <h1><b>Sign Up - Join The Club</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Form -->
+        <form class="signup" action="signup.html" method="post">
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+            <input class="form-control" type="text" placeholder="Email address" required>
+          </div><br>
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-lock fa-fw"></i></span>
+            <input class="form-control" type="password" placeholder="Password" required>
+          </div><br>
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+            <input class="form-control" type="password" placeholder="Confirm Password" required>
+          </div>
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-send fa-fw"></i></span>
+            <input class="form-control" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+
+      <!-- Footer -->
+
+
+    </div>
+    <footer class="container">
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#">Brand Name</a>
+    </footer>
+  </body>
+</html>

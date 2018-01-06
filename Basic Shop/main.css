@@ -1,0 +1,6 @@
+.headerimg{background-image:url("images/header-img.jpg");color:white;font-weight: bold;min-height:500px;}
+.headerimg h1{color:white;margin-top:50px;}
+p a {color:black;text-decoration: none}
+p a:hover {color:black;text-decoration: underline}
+p a:active {color:black;font-weight: bold}
+.carousel-caption h3{font-weight: bold;color:#1a1a1a;}
