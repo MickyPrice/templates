@@ -108,3 +108,10 @@ body{
     width: 1170px;
   }
 }
+
+ul{
+  text-align:center;
+}
+li{display:block;}
+li a{color:#FF5C33;font-weight:bold;text-decoration:none;}
+li a::before{content:"> "}
